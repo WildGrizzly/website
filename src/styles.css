@@ -18,10 +18,12 @@ app-navigation {
 h3 {
     text-align: center;
     color: rgb(12, 12, 58);
+    padding:5px;
 }
 
 p {
     font: "Times New Roman";
+    font-size: smaller;
     color: black;
 }
 
