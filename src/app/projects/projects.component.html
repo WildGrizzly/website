@@ -1,0 +1,10 @@
+<div *ngFor="let subject of subjects">
+    <h3 style="padding:5px; background-color: mediumspringgreen;">
+        <a (mouseover)="setHoveredOn(subject)" (mouseout)="setHoveredOff(subject)">
+            {{subject.name}}
+        </a>
+    </h3>
+    <p *ngIf="subject.hovered">
+        {{subject.description}}
+    </p>
+</div>
