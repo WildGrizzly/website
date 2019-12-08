@@ -30,7 +30,8 @@ import { FooterComponent } from './footer/footer.component'
       { path: '', component: HomeComponent },
       { path: 'Projects', component: ProjectsComponent },
       { path: 'Resumé', component: ResumeComponent },
-      { path: 'Projects/:projectList', component: ProjectListComponent}
+      { path: 'Projects/:projectList', component: ProjectListComponent},
+      { path: 'Projects/:projectList/:projectInfo', component: ProjectInfoComponent}
     ])
   ],
   providers: [],
