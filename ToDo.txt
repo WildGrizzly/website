@@ -1,0 +1,4 @@
+Add individual project layout/template
+Add some data
+Complete local tool for autoupdating the information on the typescript file
+
