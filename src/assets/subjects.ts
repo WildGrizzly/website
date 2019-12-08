@@ -5,7 +5,7 @@ export const subjects = [
         hovered: false,
         projects: [
             {
-                name: "Entry1 : LinkedLists"
+                name: "Entry0 : LinkedLists"
             },
         ],
     },
@@ -15,7 +15,7 @@ export const subjects = [
         hovered: false,
         projects: [
             {
-                name: "Entry1 : Dijkstra"
+                name: "Entry0 : Dijkstra"
             },
         ],
     },
@@ -25,7 +25,7 @@ export const subjects = [
         hovered: false,
         projects: [
             {
-                name: "Entry1 : Twitter Trender"
+                name: "Entry0 : Twitter Trender"
             },
         ],
     },
@@ -35,7 +35,7 @@ export const subjects = [
         hovered: false,
         projects: [
             {
-                name: "Entry1 : Maximum Likelihood"
+                name: "Entry0 : Maximum Likelihood"
             },
         ],
     },
@@ -45,34 +45,34 @@ export const subjects = [
         hovered: false,
         projects: [
             {
-                name: "Entry1 : Treehopper"
+                name: "Entry0 : Treehopper"
             },
             {
                 name: "Entry1 : Treehopper"
             },
             {
-                name: "Entry1 : Treehopper"
+                name: "Entry2 : Treehopper"
             },
             {
-                name: "Entry1 : Treehopper"
+                name: "Entry3 : Treehopper"
             },
             {
-                name: "Entry1 : Treehopper"
+                name: "Entry4 : Treehopper"
             },
             {
-                name: "Entry1 : Treehopper"
+                name: "Entry5 : Treehopper"
             },
             {
-                name: "Entry1 : Treehopper"
+                name: "Entry6 : Treehopper"
             },
             {
-                name: "Entry1 : Treehopper"
+                name: "Entry7 : Treehopper"
             },
             {
-                name: "Entry1 : Treehopper"
+                name: "Entry8 : Treehopper"
             },
             {
-                name: "Entry1 : Treehopper"
+                name: "Entry9 : Treehopper"
             }
         ],
     }
