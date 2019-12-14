@@ -12,7 +12,9 @@ export class ProjectsComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-
+    for(let subject of subjects){
+      subject.hovered = false;
+    }
   }
 
   setHoveredOn(subject) {

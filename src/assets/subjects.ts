@@ -5,7 +5,28 @@ export const subjects = [
         hovered: false,
         projects: [
             {
-                name: "Entry0 : LinkedLists"
+                name: "Entry0 : LinkedLists",
+                content: "This is where I will outline LinkedLists"
+            },
+			{
+                name: "Entry1 : Doublely Linked Lists",
+                content: "This is where I will outline DLLs"
+            },
+            {
+                name: "Entry2 : Stack",
+                content: "This is where I will outline Stacks"
+            },
+            {
+                name: "Entry3 : Queue",
+                content: "This is where I will outline Queues"
+            },
+			{
+                name: "Entry4 : Binary Search Tree",
+                content: "This is where I will outline BSTs"
+            },
+			{
+                name: "Entry5 : Graphs",
+                content: "This is where I will outline Graphs"
             },
         ],
     },
@@ -15,7 +36,8 @@ export const subjects = [
         hovered: false,
         projects: [
             {
-                name: "Entry0 : Dijkstra"
+                name: "Entry0 : Dijkstra",
+                content: "This is where I will outline Dijkstra's algorithm"
             },
         ],
     },
@@ -25,7 +47,8 @@ export const subjects = [
         hovered: false,
         projects: [
             {
-                name: "Entry0 : Twitter Trender"
+                name: "Entry0 : Twitter Trender",
+                content: "Here I will outline my Twitter Trender application"
             },
         ],
     },
@@ -35,7 +58,8 @@ export const subjects = [
         hovered: false,
         projects: [
             {
-                name: "Entry0 : Maximum Likelihood"
+                name: "Entry0 : Maximum Likelihood",
+                content: "Here I will outline the maximum likelihood approach for linear regression"
             },
         ],
     },
@@ -46,33 +70,6 @@ export const subjects = [
         projects: [
             {
                 name: "Entry0 : Treehopper"
-            },
-            {
-                name: "Entry1 : Treehopper"
-            },
-            {
-                name: "Entry2 : Treehopper"
-            },
-            {
-                name: "Entry3 : Treehopper"
-            },
-            {
-                name: "Entry4 : Treehopper"
-            },
-            {
-                name: "Entry5 : Treehopper"
-            },
-            {
-                name: "Entry6 : Treehopper"
-            },
-            {
-                name: "Entry7 : Treehopper"
-            },
-            {
-                name: "Entry8 : Treehopper"
-            },
-            {
-                name: "Entry9 : Treehopper"
             }
         ],
     }

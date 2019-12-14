@@ -10,7 +10,8 @@ import { ResumeComponent } from './resume/resume.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { ProjectInfoComponent } from './project-info/project-info.component';
 import { ProjectListComponent } from './project-list/project-list.component';
-import { FooterComponent } from './footer/footer.component'
+import { FooterComponent } from './footer/footer.component';
+import { AchievementsComponent } from './achievements/achievements.component'
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { FooterComponent } from './footer/footer.component'
     ProjectInfoComponent,
     ProjectListComponent,
     FooterComponent,
+    AchievementsComponent,
   ],
   imports: [
     BrowserModule,
@@ -30,6 +32,7 @@ import { FooterComponent } from './footer/footer.component'
       { path: '', component: HomeComponent },
       { path: 'Projects', component: ProjectsComponent },
       { path: 'Resumé', component: ResumeComponent },
+      { path: 'Achievements', component: AchievementsComponent },
       { path: 'Projects/:projectList', component: ProjectListComponent},
       { path: 'Projects/:projectList/:projectInfo', component: ProjectInfoComponent}
     ])
