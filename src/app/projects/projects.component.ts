@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { subjects } from './subjects'
+import { subjects } from '../../assets/subjects'
 
 @Component({
   selector: 'app-projects',
@@ -12,7 +12,9 @@ export class ProjectsComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-
+    for(let subject of subjects){
+      subject.hovered = false;
+    }
   }
 
   setHoveredOn(subject) {
