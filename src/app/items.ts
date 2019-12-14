@@ -1,4 +1,5 @@
 export const items: string[] =  [
     "Projects",
-    "Resumé"
+    "Resumé",
+    "Achievements"
 ]

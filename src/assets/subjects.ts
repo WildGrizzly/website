@@ -5,7 +5,16 @@ export const subjects = [
         hovered: false,
         projects: [
             {
-                name: "Entry0 : LinkedLists"
+                name: "Entry0 : LinkedLists",
+                content: "This is where I will outline LinkedLists"
+            },
+            {
+                name: "Entry1 : Stack",
+                content: "This is where I will outline Stacks"
+            },
+            {
+                name: "Entry2 : Queue",
+                content: "This is where I will outline Queues"
             },
         ],
     },
@@ -15,7 +24,8 @@ export const subjects = [
         hovered: false,
         projects: [
             {
-                name: "Entry0 : Dijkstra"
+                name: "Entry0 : Dijkstra",
+                content: "This is where I will outline Dijkstra's algorithm"
             },
         ],
     },
@@ -25,7 +35,8 @@ export const subjects = [
         hovered: false,
         projects: [
             {
-                name: "Entry0 : Twitter Trender"
+                name: "Entry0 : Twitter Trender",
+                content: "Here I will outline my Twitter Trender application"
             },
         ],
     },
@@ -35,7 +46,8 @@ export const subjects = [
         hovered: false,
         projects: [
             {
-                name: "Entry0 : Maximum Likelihood"
+                name: "Entry0 : Maximum Likelihood",
+                content: "Here I will outline the maximum likelihood approach for linear regression"
             },
         ],
     },
