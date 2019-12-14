@@ -8,13 +8,25 @@ export const subjects = [
                 name: "Entry0 : LinkedLists",
                 content: "This is where I will outline LinkedLists"
             },
+			{
+                name: "Entry1 : Doublely Linked Lists",
+                content: "This is where I will outline DLLs"
+            },
             {
-                name: "Entry1 : Stack",
+                name: "Entry2 : Stack",
                 content: "This is where I will outline Stacks"
             },
             {
-                name: "Entry2 : Queue",
+                name: "Entry3 : Queue",
                 content: "This is where I will outline Queues"
+            },
+			{
+                name: "Entry4 : Binary Search Tree",
+                content: "This is where I will outline BSTs"
+            },
+			{
+                name: "Entry5 : Graphs",
+                content: "This is where I will outline Graphs"
             },
         ],
     },
