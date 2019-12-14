@@ -58,33 +58,6 @@ export const subjects = [
         projects: [
             {
                 name: "Entry0 : Treehopper"
-            },
-            {
-                name: "Entry1 : Treehopper"
-            },
-            {
-                name: "Entry2 : Treehopper"
-            },
-            {
-                name: "Entry3 : Treehopper"
-            },
-            {
-                name: "Entry4 : Treehopper"
-            },
-            {
-                name: "Entry5 : Treehopper"
-            },
-            {
-                name: "Entry6 : Treehopper"
-            },
-            {
-                name: "Entry7 : Treehopper"
-            },
-            {
-                name: "Entry8 : Treehopper"
-            },
-            {
-                name: "Entry9 : Treehopper"
             }
         ],
     }

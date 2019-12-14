@@ -1,6 +1,9 @@
 <div *ngFor="let subject of subjects">
     <h3 style="padding:5px; background-color: mediumspringgreen;">
-        <a (mouseover)="setHoveredOn(subject)" (mouseout)="setHoveredOff(subject)" [routerLink]="['/Projects', subject.name]">
+        <a (mouseover)="setHoveredOn(subject)"
+         (mouseleave)="setHoveredOff(subject)" 
+         [routerLink]="['/Projects', subject.name]"
+        >
             {{subject.name}}
         </a>
     </h3>
