@@ -28,14 +28,6 @@ export const subjects = [
                 name: "Entry5 : Graphs",
                 content: "This is where I will outline Graphs"
             },
-            {
-                name: "Entry3 : Queue",
-                content: "This is where I will outline Queues"
-            },
-			{
-                name: "Entry4 : Binary Search Tree",
-                content: "This is where I will outline BSTs"
-            },
         ],
     },
     {
@@ -55,7 +47,11 @@ export const subjects = [
         hovered: false,
         projects: [
             {
-                name: "Entry0 : Twitter Trender",
+                name: "Entry0 : Resumé Website",
+                content: "Here I will outline my Website"
+            },
+            {
+                name: "Entry1 : Twitter Trender",
                 content: "Here I will outline my Twitter Trender application"
             },
         ],

@@ -58,8 +58,7 @@ a {
 
 app-footer {
     background-color: rgb(48, 180, 158);
-    padding-left : 20px;
-    padding-right: 20px;
+
     position:absolute;
     left:0;
     bottom: 0;
