@@ -62,16 +62,21 @@ app-footer {
     padding-right: 20px;
     position:absolute;
     left:0;
-    bottom:0;
+    bottom: 0;
     right:0;
+    margin-bottom: 1px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    height: 40px;
+    height: 50px;
   }
 
   #page-container {
     position: relative;
-    min-height: 100vh;
+    min-height: 97vh;
+  }
+
+  #content-wrap {
+    padding-bottom: 110px    /* Footer height */
   }

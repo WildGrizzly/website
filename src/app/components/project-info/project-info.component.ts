@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
-import { subjects } from '../../assets/subjects';
+import { subjects } from '../../../assets/subjects';
 
 @Component({
   selector: 'app-project-info',

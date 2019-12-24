@@ -28,6 +28,14 @@ export const subjects = [
                 name: "Entry5 : Graphs",
                 content: "This is where I will outline Graphs"
             },
+            {
+                name: "Entry3 : Queue",
+                content: "This is where I will outline Queues"
+            },
+			{
+                name: "Entry4 : Binary Search Tree",
+                content: "This is where I will outline BSTs"
+            },
         ],
     },
     {
