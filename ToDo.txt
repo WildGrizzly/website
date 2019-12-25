@@ -1,4 +1,8 @@
-Add individual project layout/template
-Add some data
-Complete local tool for autoupdating the information on the typescript file
-Add a hobbies tab perhaps
+Add some project data
+Update home tab introduction
+Update Resume
+Finish working the achievments tab
+
+for Completion:
+  -At least all current projects have a description
+  - Achievments page isn't empty
