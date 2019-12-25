@@ -1,4 +1,7 @@
-Add individual project layout/template
-Add some data
-Complete local tool for autoupdating the information on the typescript file
-Add a hobbies tab perhaps
+Complete a new design using angular materials
+  - paper design
+  - show it to Nika
+
+
+on completion:
+  - revamped website
