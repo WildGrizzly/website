@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { ProjectsComponent } from './components/projects/projects.component';
@@ -16,26 +16,11 @@ import { AchievementsComponent } from './components/achievements/achievements.co
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
-    ProjectsComponent,
-    ResumeComponent,
-    NavigationComponent,
-    ProjectInfoComponent,
-    ProjectListComponent,
-    FooterComponent,
-    AchievementsComponent,
+    routingComponents
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    RouterModule.forRoot([
-      { path: '', component: HomeComponent },
-      { path: 'Projects', component: ProjectsComponent },
-      { path: 'Resumé', component: ResumeComponent },
-      { path: 'Achievements', component: AchievementsComponent },
-      { path: 'Projects/:projectList', component: ProjectListComponent},
-      { path: 'Projects/:projectList/:projectInfo', component: ProjectInfoComponent}
-    ])
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
