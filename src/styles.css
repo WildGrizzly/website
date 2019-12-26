@@ -79,3 +79,5 @@ app-footer {
   #content-wrap {
     padding-bottom: 110px    /* Footer height */
   }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
