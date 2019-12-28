@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
-import { subjects } from '../../../assets/subjects'
+import { ProjectService } from '../../services/project-service/project.service'
 
 @Component({
   selector: 'app-projects',
@@ -8,11 +7,15 @@ import { subjects } from '../../../assets/subjects'
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent implements OnInit {
-  subjects = subjects;
-  constructor() { }
+  subjects;
+  constructor(
+    private projectService: ProjectService,
+  ) {
+  }
 
   ngOnInit() {
-    for(let subject of subjects){
+    this.subjects = this.projectService.getSubjects();
+    for(let subject of this.subjects){
       subject.hovered = false;
     }
   }
