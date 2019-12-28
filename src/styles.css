@@ -58,7 +58,6 @@ a {
 
 app-footer {
     background-color: rgb(48, 180, 158);
-
     position:absolute;
     left:0;
     bottom: 0;
@@ -79,5 +78,3 @@ app-footer {
   #content-wrap {
     padding-bottom: 110px    /* Footer height */
   }
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
