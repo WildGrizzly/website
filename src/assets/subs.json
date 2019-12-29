@@ -7,7 +7,7 @@
             "projects": [
                 {
                     "name": "Entry0 : LinkedLists",
-                    "content": "Linked Lists are perhaps one of the simplest structures in computer science and can be implemented a number of different ways. Two of which are with an array and with pointers. The type of implementation effects the efficiency of the common methods of the linked list. The most common methods include: clear, add/insert, delete, and size. However the linkedlists can be highly customizable to achieve a particular goal. The implementations of these particular linkedlists can be found on my github"
+                    "content": "Linked Lists are perhaps one of the simplest structures in computer science and can be implemented a number of different ways. Two of which are with an array and with pointers. The type of implementation effects the efficiency of the common methods of the linked list. The most common methods include: clear, add/insert, delete, and size. However the linkedlists can be highly customizable to achieve a particular goal. The implementations of these particular linkedlists can be found on my github."
                 },
                 {
                     "name": "Entry1 : Doublely Linked Lists",
@@ -19,15 +19,15 @@
                 },
                 {
                     "name": "Entry3 : Queue",
-                    "content": "Queues are also related to the previous data structures: Stacks and LinkedLists however they differ fundementally from stacks. This data structure stores items in the order that they have arrived, so that those who have waited the longest are served first. This is a first in first out data structure, and would be useful to implement a parking lot, a lunch line, or to determine how to handle the order http request responses on a webserver"
+                    "content": "Queues are also related to the previous data structures: Stacks and LinkedLists however they differ fundementally from stacks. This data structure stores items in the order that they have arrived, so that those who have waited the longest are served first. This is a first in first out data structure, and would be useful to implement a parking lot, a lunch line, or to determine how to handle the order http request responses on a webserver."
                 },
                 {
                     "name": "Entry4 : Binary Search Tree",
-                    "content": "This is where I will outline BSTs"
+                    "content": "BSTs are useful data structures because of their O(log n) look up time and useful for keeping a list sorted when adding elements, allowing someone to read in or calculate a lot of items and retrieving the sorted list in O(n) time which is very efficient. However the issue with the BST is to guarentee that the BST is always balanced. Once we can guarentee that it can always be balanced then we can guarentee the maximum look up time of each item in the structure."
                 },
                 {
                     "name": "Entry5 : Graphs",
-                    "content": "This is where I will outline Graphs"
+                    "content": "Graphs are a unique data structure for each item can be linked to multiple different items in the structure. This data structure is also known as a network and can solve a lot of different problems in the real world. For instance, the most efficient way to get from point a to point b or the cheapest flight path around the world. It is one of the most important data structures in all computer science and is worth studying extensively."
                 }
             ]
         },
