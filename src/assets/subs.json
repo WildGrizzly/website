@@ -2,12 +2,12 @@
     "Subjects": [
         {
             "name": "Data Structures",
-            "description": "This section covers the data structures that I have implemented. This is also useful for me personally to visualize these concepts, and implement them in upcoming projects and work.",
+            "description": "This section covers the data structures that I have implemented. This is also useful for me personally to visualize these concepts, and implement them in upcoming projects and work. I also wish to implement these structures in different languages I have learned in order to learn the language better.",
             "hovered": false,
             "projects": [
                 {
                     "name": "Entry0 : LinkedLists",
-                    "content": "This is where I will outline LinkedLists"
+                    "content": "Linked Lists are perhaps one of the simplest structures in computer science and can be implemented a number of different ways. Two of which are with an array and with pointers. The type of implementation effects the efficiency of the common methods of the linked list. The most common methods include: clear, add/insert, delete, and size. However the linkedlists can be highly customizable to achieve a particular goal. The implementations of these particular linkedlists can be found on my github page."
                 },
                 {
                     "name": "Entry1 : Doublely Linked Lists",
