@@ -7,19 +7,19 @@
             "projects": [
                 {
                     "name": "Entry0 : LinkedLists",
-                    "content": "Linked Lists are perhaps one of the simplest structures in computer science and can be implemented a number of different ways. Two of which are with an array and with pointers. The type of implementation effects the efficiency of the common methods of the linked list. The most common methods include: clear, add/insert, delete, and size. However the linkedlists can be highly customizable to achieve a particular goal. The implementations of these particular linkedlists can be found on my github page."
+                    "content": "Linked Lists are perhaps one of the simplest structures in computer science and can be implemented a number of different ways. Two of which are with an array and with pointers. The type of implementation effects the efficiency of the common methods of the linked list. The most common methods include: clear, add/insert, delete, and size. However the linkedlists can be highly customizable to achieve a particular goal. The implementations of these particular linkedlists can be found on my github"
                 },
                 {
                     "name": "Entry1 : Doublely Linked Lists",
-                    "content": "This is where I will outline DLLs"
+                    "content": "Doublely linked list are a classic example of how a computer scientist can use more data storage to speed up different methods of a similar data structure. Making reversing a linkedlist as well as other similar 'more difficult' methods trivial. These data structure function by having items not only point to the next item, but also the previous one. Making more unique functions and specifications easier to implement."
                 },
                 {
                     "name": "Entry2 : Stack",
-                    "content": "This is where I will outline Stacks"
+                    "content": "Stacks are similar to a list however it is a even simpler data structure in that it uses the functions: push and pop. When adding and removing items. This means that an item can only be removed if it has just been put on top of the stack. There is also a unique function peek, which allows you to view the next element of a stack without removing it. These structures are useful what order to do computations. This is a last in first out data structure."
                 },
                 {
                     "name": "Entry3 : Queue",
-                    "content": "This is where I will outline Queues"
+                    "content": "Queues are also related to the previous data structures: Stacks and LinkedLists however they differ fundementally from stacks. This data structure stores items in the order that they have arrived, so that those who have waited the longest are served first. This is a first in first out data structure, and would be useful to implement a parking lot, a lunch line, or to determine how to handle the order http request responses on a webserver"
                 },
                 {
                     "name": "Entry4 : Binary Search Tree",
