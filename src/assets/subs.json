@@ -38,7 +38,7 @@
             "projects": [
                 {
                     "name": "Entry0 : Dijkstra",
-                    "content": "This is where I will outline Dijkstra's algorithm"
+                    "content": "Dijkstra's algorithm is an algorithm concerned with navigating through a weighted graph and trying to minimize/maximize the cost/yeild of the path taken through the graph. This algorithm is useful for determining shortest distances between two real world locations given the obstacles."
                 }
             ]
         },
@@ -49,11 +49,11 @@
             "projects": [
                 {
                     "name": "Entry0 : Resumé Website",
-                    "content": "Here I will outline my Website"
+                    "content": "My website is powered with Angular, AWS, and a project info insertion tool that I developed with python. In the future I plan on adding either Bootstrap or Angular Material to have the design to look as clean as possible. Also I plan on altering the project info and keeping everything up to date to hopefully impress future employers. This also acts as a great learning activity for me to learn the ropes of AWS and Angular in order to be more creative with the way I constuct websites in the future."
                 },
                 {
                     "name": "Entry1 : Twitter Trender",
-                    "content": "Here I will outline my Twitter Trender application"
+                    "content": "This is a small application I wrote in order to try to gather information that I have seen on twitter, in order to use machine learning and text analysis to extract some useful information about the trending tweets in the regions most significant to my life."
                 }
             ]
         },
@@ -64,7 +64,7 @@
             "projects": [
                 {
                     "name": "Entry0 : Maximum Likelihood",
-                    "content": "Here I will outline the maximum likelihood approach for linear regression"
+                    "content": "This approach contrasts that of the Least Squares approach by assuming the funciton can be modeled perfected by a function that has added noise to it. In this manner we can conclude that data points are independent and therefore the we can maximize their probability of all of the data points. This will eb explained more thoroughly and concisely in the future."
                 }
             ]
         },
@@ -73,9 +73,6 @@
             "description": "A collection of all the preparations that I have worked on to impress employers.",
             "hovered": false,
             "projects": [
-                {
-                    "name": "Entry0 : Treehopper"
-                }
             ]
         }
     ]
