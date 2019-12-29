@@ -14,10 +14,12 @@ export class ProjectsComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.subjects = this.projectService.getSubjects();
-    for(let subject of this.subjects){
-      subject.hovered = false;
-    }
+    this.projectService.getJSON().subscribe(data => {
+      this.subjects = data["Subjects"];
+      for(let subject of this.subjects){
+        subject.hovered = false;
+      }
+    });
   }
 
   setHoveredOn(subject) {
