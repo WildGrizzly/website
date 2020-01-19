@@ -1,7 +1,5 @@
-Complete a new design using angular materials
-  - paper design
-  - show it to Nika
-
+Use gitignore to detach all of the files in the asset directory.
 
 on completion:
-  - revamped website
+  - can successfully upload files to git that does not include the assets folder
+  - even the assets folder in the dist directory.

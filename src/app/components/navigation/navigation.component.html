@@ -1,13 +1,7 @@
-<h3>
-    <a [routerLink]="['/']">
-        Home
-    </a>
-</h3>    
-
 <div *ngFor="let item of items">
-    <h3>
-        <a [routerLink]="[item]">
-            {{item}}
-        </a>
-    </h3>
+    <a [routerLink]="[item.route]">
+        <button mat-raised-button color="primary">
+            {{item.title}}
+        </button>
+    </a>
 </div>

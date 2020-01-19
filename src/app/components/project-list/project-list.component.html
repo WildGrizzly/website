@@ -3,7 +3,7 @@
 </h3>
 <div *ngFor="let proj of project.projects; index as info">
     <h3 style="padding:5px; background-color: mediumspringgreen;">
-        <a [routerLink]="['/Projects', project.name, info]">
+        <a [routerLink]="['/projects', project.name, info]">
             {{proj.name}}
         </a>
     </h3>
