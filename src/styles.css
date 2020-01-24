@@ -5,15 +5,11 @@
 
 /* Navigation bar */
 app-navigation {
-    background-color: rgb(32, 180, 190);
-    padding-left : 20px;
-    padding-right: 20px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 100%;
-    height: 40px;
 }
+
 
 h3 {
     text-align: center;
@@ -57,12 +53,9 @@ a {
   }
 
 app-footer {
-    background-color: rgb(32, 180, 190);
     position:absolute;
-    left:0;
+    background-color: rgb(20, 99, 189);
     bottom: 0;
-    right:0;
-    margin-bottom: 1px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -72,9 +65,9 @@ app-footer {
 
   #page-container {
     position: relative;
-    min-height: 97vh;
+    min-height: 99vh;
   }
 
   #content-wrap {
-    padding-bottom: 110px    /* Footer height */
+    padding-bottom: 50px;
   }
