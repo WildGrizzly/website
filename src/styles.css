@@ -5,31 +5,37 @@
 
 /* Navigation bar */
 app-navigation {
-    background-color: rgb(32, 180, 190);
-    padding-left : 20px;
-    padding-right: 20px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    height: 40px;
+  background-color:  rgb(71, 103, 126);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
+
+app-nav-selector {
+  display: flex;
+  min-width: 450px;
+  justify-content: space-between;
+  align-items: center;
+}
+
 
 h3 {
     text-align: center;
     color: rgb(12, 12, 58);
     padding:5px;
+    font-size: 25px;
+    color: rgb(71, 103, 126);
 }
 
 p {
     font: "Times New Roman";
-    font-size: smaller;
-    color: black;
+    font-size: 20px;
+    color:  rgb(71, 103, 126);
 }
 
 a {
     cursor: pointer;
-    color: rgb(214, 8, 8);
+    color:  white;
     text-decoration: none;
   }
   .circle-link {
@@ -57,12 +63,9 @@ a {
   }
 
 app-footer {
-    background-color: rgb(32, 180, 190);
     position:absolute;
-    left:0;
+    background-color: rgb(20, 99, 189);
     bottom: 0;
-    right:0;
-    margin-bottom: 1px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -72,9 +75,9 @@ app-footer {
 
   #page-container {
     position: relative;
-    min-height: 97vh;
+    min-height: 98vh;
   }
 
   #content-wrap {
-    padding-bottom: 110px    /* Footer height */
+    padding-bottom: 50px;
   }
