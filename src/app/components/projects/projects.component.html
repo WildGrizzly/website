@@ -1,5 +1,5 @@
 <div *ngFor="let subject of subjects">
-    <h3 style="padding:5px; background-color: mediumspringgreen;">
+    <h3 style="padding:5px;  background-color: rgb(20, 99, 189);">
         <a (mouseover)="setHoveredOn(subject)"
          (mouseleave)="setHoveredOff(subject)" 
          [routerLink]="['/projects', subject.name]"
