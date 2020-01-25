@@ -8,11 +8,11 @@ export const items: {title: string, route: string}[] =  [
         route: "projects"
     },
     {
-        title: "Resume",
-        route: "resumé"
-    },
-    {
         title: "Achievements",
         route: "achievements"
-    }
+    },
+    {
+        title: "Resumé",
+        route: "resumé"
+    },
 ]

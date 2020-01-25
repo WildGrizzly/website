@@ -28,6 +28,7 @@ export const subjects = [
                 name: "Entry5 : Graphs",
                 content: "This is where I will outline Graphs"
             },
+            
         ],
     },
     {

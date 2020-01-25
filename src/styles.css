@@ -16,7 +16,7 @@ body {
 
 app-nav-selector {
   display: flex;
-  min-width: 450px;
+  min-width: 30%;
   justify-content: space-between;
   align-items: center;
 }
@@ -66,7 +66,7 @@ a {
 
 app-footer {
     position:absolute;
-    background-color: rgb(20, 99, 189);
+    background-color:  rgb(54, 78, 95);
     bottom: 0;
     display: flex;
     justify-content: space-evenly;
@@ -78,8 +78,6 @@ app-footer {
   #page-container {
     position: relative;
     min-height: 100vh;
-    background-image: url('./assets/bear.jpg');
-    background-position: center;
   }
 
   #content-wrap {
