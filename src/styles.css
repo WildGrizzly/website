@@ -1,14 +1,17 @@
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    box-sizing: border-box;
   }
 
 /* Navigation bar */
 app-navigation {
-  background-color:  rgb(71, 103, 126);
+  background-color:   rgb(54, 78, 95);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+
+body {
+  margin: 0px;
 }
 
 app-nav-selector {
@@ -18,19 +21,18 @@ app-nav-selector {
   align-items: center;
 }
 
-
 h3 {
     text-align: center;
     color: rgb(12, 12, 58);
     padding:5px;
     font-size: 25px;
-    color: rgb(71, 103, 126);
+    color:  rgb(54, 78, 95);
 }
 
 p {
     font: "Times New Roman";
     font-size: 20px;
-    color:  rgb(71, 103, 126);
+    color:   rgb(54, 78, 95);
 }
 
 a {
@@ -75,7 +77,9 @@ app-footer {
 
   #page-container {
     position: relative;
-    min-height: 98vh;
+    min-height: 100vh;
+    background-image: url('./assets/bear.jpg');
+    background-position: center;
   }
 
   #content-wrap {
