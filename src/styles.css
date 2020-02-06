@@ -79,6 +79,7 @@ app-footer {
     position: relative;
     background-repeat: no-repeat;
     background-image: url(./assets/bear.jpg);
+    background-position: center;
     min-height: 100vh;
   }
 
