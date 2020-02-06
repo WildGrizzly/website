@@ -16,7 +16,7 @@ body {
 
 app-nav-selector {
   display: flex;
-  min-width: 30%;
+  min-width: 35%;
   justify-content: space-between;
   align-items: center;
 }
@@ -31,7 +31,7 @@ h3 {
 
 p {
     font: "Times New Roman";
-    font-size: 20px;
+    font-size: 18px;
     color:   rgb(54, 78, 95);
 }
 
