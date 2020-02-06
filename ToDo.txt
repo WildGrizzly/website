@@ -1,5 +1,1 @@
-Use gitignore to detach all of the files in the asset directory.
-
-on completion:
-  - can successfully upload files to git that does not include the assets folder
-  - even the assets folder in the dist directory.
+The animation for the nav bar
