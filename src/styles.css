@@ -76,6 +76,7 @@ app-footer {
   #page-container {
     position: relative;
     min-height: 98vh;
+    background-image: url(./assets/bear.jpg);
   }
 
   #content-wrap {
