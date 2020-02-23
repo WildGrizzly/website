@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+import { MatCardModule} from '@angular/material/card';
 import { subjects } from '../../../assets/subjects'
 
 @Component({

@@ -75,6 +75,12 @@ app-footer {
     height: 50px;
   }
 
+app-projects {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
   #page-container {
     position: relative;
     background-repeat: no-repeat;
