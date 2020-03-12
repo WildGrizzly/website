@@ -56,7 +56,7 @@ export const subjects = [
     },
     {
         name : "Machine Learning",
-        description : "The machine learning projects that I have worked on in my free time, and with classwork.",
+        description : "The machine learning projects that I have worked on in my free time, and with classwork. Or some algorithms I have implemented for fun.",
         projects: [
             {
                 name: "Entry0 : Maximum Likelihood",
@@ -66,7 +66,7 @@ export const subjects = [
     },
     {
         name : "Coding Questions",
-        description : "A collection of all the preparations that I have worked on to impress employers.",
+        description : "A collection of all the preparations that I have worked on to impress employers. Including some problems from Leetcode, Cracking The Coding Interview, or other general problems I find interesting.",
         projects: [
             {
                 name: "Entry0 : Treehopper"

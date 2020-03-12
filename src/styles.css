@@ -7,13 +7,6 @@ body {
   margin: 0px;
 }
 
-app-nav-selector {
-  display: flex;
-  min-width: 35%;
-  justify-content: space-between;
-  align-items: center;
-}
-
 h3 {
     text-align: center;
     color: rgb(12, 12, 58);
@@ -26,6 +19,10 @@ p {
     font: "Times New Roman";
     font-size: 18px;
     color:   rgb(54, 78, 95);
+}
+
+html {
+  overflow-y: scroll;
 }
 
 a {
@@ -58,7 +55,7 @@ a {
   }
 
 app-footer {
-    position:absolute;
+    position:fixed;
     background-color:  rgb(54, 78, 95);
     bottom: 0;
     display: flex;
@@ -68,19 +65,13 @@ app-footer {
     height: 50px;
   }
 
-app-projects {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
   #page-container {
     position: relative;
     background-repeat: no-repeat;
     background-image: url(./assets/bear.jpg);
     background-position: center;
-    min-height: 100vh;
-    min-width: 900px;
+    height: 100vh;
+    min-width: 1000px;
   }
 
   #content-wrap {

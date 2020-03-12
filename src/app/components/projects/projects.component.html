@@ -1,3 +1,14 @@
-<mat-card>
-    
-</mat-card>
+<div class="projs">
+    <div style="height: 80px;"> </div>
+    <div *ngFor="let subject of subjects">
+        <a [routerLink]="['/Projects', subject.name]">
+            <mat-card class="proj">
+                <mat-card-title> {{subject.name}} </mat-card-title>
+                <p>
+                    {{subject.description}}
+                </p>
+            </mat-card>
+        </a>
+        <div style="height: 30px;"> </div>
+    </div>
+</div>
