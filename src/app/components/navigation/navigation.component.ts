@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { items } from '../../items'
+import { MatButtonModule } from '@angular/material/button';
 
 @Component({
   selector: 'app-navigation',
@@ -6,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navigation.component.css']
 })
 export class NavigationComponent implements OnInit {
+  items = items;
   constructor() { }
 
   ngOnInit() {
