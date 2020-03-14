@@ -1,7 +1,7 @@
 <div class="projs">
-    <div style="height: 80px;"> </div>
+    <div style="height: 30px;"> </div>
     <div *ngFor="let subject of subjects">
-        <a [routerLink]="['/Projects', subject.name]">
+        <a [routerLink]="['/projects', subject.name]">
             <mat-card class="proj">
                 <mat-card-title> {{subject.name}} </mat-card-title>
                 <p>
