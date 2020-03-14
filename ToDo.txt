@@ -1,0 +1,8 @@
+Add some project data
+Update home tab introduction
+Update Resume
+Finish working the achievments tab
+
+for Completion:
+  -At least all current projects have a description
+  - Achievments page isn't empty

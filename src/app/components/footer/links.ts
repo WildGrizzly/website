@@ -22,9 +22,5 @@ export const links = [
     {
         url: "https://www.instagram.com/wild_grizz/",
         name: "instagram"
-    },
-    {
-        url: "https://steamcommunity.com/id/WildGrizzly",
-        name: "steam"
     }
 ]

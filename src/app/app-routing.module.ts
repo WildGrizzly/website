@@ -12,11 +12,11 @@ import { NavigationComponent } from './components/navigation/navigation.componen
 
 const routes: Routes = [ 
   { path: '', component: HomeComponent },
-  { path: 'projects', component: ProjectsComponent },
-  { path: 'resumé', component: ResumeComponent },
-  { path: 'achievements', component: AchievementsComponent },
-  { path: 'projects/:projectList', component: ProjectListComponent},
-  { path: 'projects/:projectList/:projectInfo', component: ProjectInfoComponent}
+  { path: 'Projects', component: ProjectsComponent },
+  { path: 'Resumé', component: ResumeComponent },
+  { path: 'Achievements', component: AchievementsComponent },
+  { path: 'Projects/:projectList', component: ProjectListComponent},
+  { path: 'Projects/:projectList/:projectInfo', component: ProjectInfoComponent}
 ];
 
 @NgModule({

@@ -1,15 +1,10 @@
 <h3>
     {{project.name}}
 </h3>
-
-<div class="projs">
-    <div style="height: 30px;"> </div>
-    <div *ngFor="let proj of project.projects; index as info">
-        <a [routerLink]="['/projects', project.name, info]">
-            <mat-card class="proj">
-                <mat-card-title> {{proj.name}} </mat-card-title>
-            </mat-card>
+<div *ngFor="let proj of project.projects; index as info">
+    <h3 style="padding:5px; background-color: mediumspringgreen;">
+        <a [routerLink]="['/Projects', project.name, info]">
+            {{proj.name}}
         </a>
-        <div style="height: 30px;"> </div>
-    </div>
+    </h3>
 </div>
