@@ -1,0 +1,10 @@
+pdf-viewer {
+    display: block;
+    opacity: 0.6;
+}
+
+.resume {
+  padding: 30px;
+  padding-right: 35%;
+  padding-left: 35%;
+}
