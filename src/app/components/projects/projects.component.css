@@ -10,3 +10,8 @@
     max-width: 800px;
     max-height: 300px;
 }
+
+h2 {
+    font-size: 25px;
+    color:  rgb(54, 78, 95);
+}

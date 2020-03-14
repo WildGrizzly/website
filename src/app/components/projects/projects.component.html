@@ -3,7 +3,7 @@
     <div *ngFor="let subject of subjects">
         <a [routerLink]="['/projects', subject.name]">
             <mat-card class="proj">
-                <mat-card-title> {{subject.name}} </mat-card-title>
+                <mat-card-title><h2>{{subject.name}}</h2></mat-card-title>
                 <p>
                     {{subject.description}}
                 </p>
