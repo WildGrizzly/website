@@ -1,1 +1,0 @@
-Beautify the Achievements and the Resume tabs.
