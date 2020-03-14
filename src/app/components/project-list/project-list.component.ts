@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router'
+import { ProjectService } from '../../services/project-service/project.service'
 
 import { subjects } from '../../../assets/subjects'
 import { MatCardModule} from '@angular/material/card';
-import { Type } from '@angular/compiler';
 
 @Component({
   selector: 'app-project-list',
@@ -13,13 +13,17 @@ import { Type } from '@angular/compiler';
 export class ProjectListComponent implements OnInit {
   project;
   answer;
+  subjects;
   constructor(
     private route: ActivatedRoute,
-  ) { }
+    private projectService: ProjectService,
+  ) { 
+    this.subjects = this.projectService.getSubjects();
+  }
 
   ngOnInit() {
     this.route.paramMap.subscribe(params => {
-      this.project = subjects[this.findIndex(subjects, params.get('projectList'))];
+      this.project = this.subjects[this.findIndex(this.subjects, params.get('projectList'))];
     })
   }
 
