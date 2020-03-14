@@ -1,6 +1,16 @@
 
-<h3 style="background-color: mediumspringgreen;"> 
+<div class="resume">
     <a href="assets/Resume_Barak_Finnegan.pdf" download>
-        Download Resumé
+        <mat-card>
+            <h3>
+                Download Resumé
+            </h3>
+        </mat-card>
     </a>
-</h3>
+</div>
+
+<pdf-viewer [src]="src"
+            [original-size]="true"
+            [render-text]="true"
+            [show-borders]="true"
+></pdf-viewer>

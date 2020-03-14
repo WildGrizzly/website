@@ -1,13 +1,14 @@
-<div *ngFor="let subject of subjects">
-    <h3 style="padding:5px; background-color: mediumspringgreen;">
-        <a (mouseover)="setHoveredOn(subject)"
-         (mouseleave)="setHoveredOff(subject)" 
-         [routerLink]="['/Projects', subject.name]"
-        >
-            {{subject.name}}
+<div class="projs">
+    <div style="height: 30px;"> </div>
+    <div *ngFor="let subject of subjects">
+        <a [routerLink]="['/projects', subject.name]">
+            <mat-card class="proj">
+                <mat-card-title><h2>{{subject.name}}</h2></mat-card-title>
+                <p>
+                    {{subject.description}}
+                </p>
+            </mat-card>
         </a>
-    </h3>
-    <p *ngIf="subject.hovered">
-        {{subject.description}}
-    </p>
+        <div style="height: 30px;"> </div>
+    </div>
 </div>

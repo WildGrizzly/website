@@ -1,0 +1,12 @@
+.content {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.info {
+    max-width:750px;
+    min-width: 700px;
+}

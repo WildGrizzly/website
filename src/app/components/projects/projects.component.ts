@@ -1,5 +1,11 @@
 import { Component, OnInit } from '@angular/core';
+<<<<<<< HEAD
+
+import { MatCardModule} from '@angular/material/card';
+import { subjects } from '../../../assets/subjects'
+=======
 import { ProjectService } from '../../services/project-service/project.service'
+>>>>>>> master
 
 @Component({
   selector: 'app-projects',
@@ -14,20 +20,14 @@ export class ProjectsComponent implements OnInit {
   }
 
   ngOnInit() {
+<<<<<<< HEAD
+=======
     this.projectService.getJSON().subscribe(data => {
       this.subjects = data["Subjects"];
       for(let subject of this.subjects){
         subject.hovered = false;
       }
     });
+>>>>>>> master
   }
-
-  setHoveredOn(subject) {
-    subject.hovered = true;
-  }
-
-  setHoveredOff(subject) {
-    subject.hovered = false
-  }
-
 }
