@@ -2,7 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router'
 import { ProjectService } from '../../services/project-service/project.service'
 
-import { Type } from '@angular/compiler';
+import { subjects } from '../../../assets/subjects'
+import { MatCardModule} from '@angular/material/card';
 
 @Component({
   selector: 'app-project-list',

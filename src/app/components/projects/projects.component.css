@@ -1,0 +1,17 @@
+.projs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.proj {
+    background-color: rgba(255, 255, 255, 0.2);
+    max-width: 800px;
+    max-height: 300px;
+}
+
+h2 {
+    font-size: 25px;
+    color:  rgb(54, 78, 95);
+}

@@ -1,18 +1,32 @@
-<div>
-    <h3>
-        Achievements
-    </h3>
-    <p>
-        There are quite a few feats that I have accomplished
-        in my adult life. Including, but not limited to: two 
-        scholarships, becoming a sub-team lead on the Virginia 
-        Tech Robotics Programming team, graduating high school
-        from Frankfurt Internation School and receiving not
-        only a high school diploma, but also a International
-        Baccalaureate certificate. Also becoming an intern at
-        Atos Information Technology company, and maintaining a
-        3.4 GPA at Virginia Tech. Being accepted to go abroad
-        and study at the Technische Universität of Darmstadt
-        for a year.
-    </p>
+<div style="height: 25px;"> </div>
+<h3>
+    Achievements
+</h3>
+<div *ngFor="let achievement of achievements">
+    <svg height="1px" width="100%">
+        <line x1="0" y1="0" x2="100%" y2="0" style="stroke: rgb(54, 78, 95);;stroke-width:2" />
+    </svg>
+    <div *ngIf="achievement.reverse" class="content-reverse">
+        <div class="info">
+            <h2>
+                {{achievement.name}}
+            </h2>
+            <p>
+                {{achievement.description}}
+            </p>
+        </div>
+        <img src={{achievement.photo}} width={{achievement.width}} height={{achievement.height}}/>
+    </div>
+    <div *ngIf="!achievement.reverse" class="content">
+        <div class="info">
+            <h2>
+                {{achievement.name}}
+            </h2>
+            <p>
+                {{achievement.description}}
+            </p>
+        </div>
+        <img style= "padding-left:30px;" src={{achievement.photo}} width={{achievement.width}} height={{achievement.height}}/>
+    </div>
+    <div style="height: 10px;"></div>
 </div>
