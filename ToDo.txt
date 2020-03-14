@@ -1,1 +1,1 @@
-The animation for the nav bar
+Beautify the Achievements and the Resume tabs.
