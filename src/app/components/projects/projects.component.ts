@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+import { MatCardModule} from '@angular/material/card';
 import { subjects } from '../../../assets/subjects'
 
 @Component({
@@ -12,17 +13,5 @@ export class ProjectsComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    for(let subject of subjects){
-      subject.hovered = false;
-    }
   }
-
-  setHoveredOn(subject) {
-    subject.hovered = true;
-  }
-
-  setHoveredOff(subject) {
-    subject.hovered = false
-  }
-
 }

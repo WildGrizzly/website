@@ -8,7 +8,6 @@ import { ProjectListComponent } from './components/project-list/project-list.com
 import { ProjectInfoComponent } from './components/project-info/project-info.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
-import { NavSelectorComponent} from './components/nav-selector/nav-selector.component';
 
 
 const routes: Routes = [ 
@@ -25,4 +24,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-export const routingComponents = [HomeComponent, NavSelectorComponent, ProjectsComponent, ResumeComponent, AchievementsComponent, ProjectListComponent, ProjectInfoComponent, NavigationComponent, FooterComponent]
+export const routingComponents = [HomeComponent, ProjectsComponent, ResumeComponent, AchievementsComponent, ProjectListComponent, ProjectInfoComponent, NavigationComponent, FooterComponent]
