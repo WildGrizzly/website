@@ -1,0 +1,79 @@
+{
+    "Subjects": [
+        {
+            "name": "Data Structures",
+            "description": "This section covers the data structures that I have implemented. This is also useful for me personally to visualize these concepts, and implement them in upcoming projects and work. I also wish to implement these structures in different languages I have learned in order to learn the language better.",
+            "hovered": false,
+            "projects": [
+                {
+                    "name": "Entry0 : LinkedLists",
+                    "content": "Linked Lists are perhaps one of the simplest structures in computer science and can be implemented a number of different ways. Two of which are with an array and with pointers. The type of implementation effects the efficiency of the common methods of the linked list. The most common methods include: clear, add/insert, delete, and size. However the linkedlists can be highly customizable to achieve a particular goal. The implementations of these particular linkedlists can be found on my github."
+                },
+                {
+                    "name": "Entry1 : Doublely Linked Lists",
+                    "content": "Doublely linked list are a classic example of how a computer scientist can use more data storage to speed up different methods of a similar data structure. Making reversing a linkedlist as well as other similar 'more difficult' methods trivial. These data structure function by having items not only point to the next item, but also the previous one. Making more unique functions and specifications easier to implement."
+                },
+                {
+                    "name": "Entry2 : Stack",
+                    "content": "Stacks are similar to a list however it is a even simpler data structure in that it uses the functions: push and pop. When adding and removing items. This means that an item can only be removed if it has just been put on top of the stack. There is also a unique function peek, which allows you to view the next element of a stack without removing it. These structures are useful what order to do computations. This is a last in first out data structure."
+                },
+                {
+                    "name": "Entry3 : Queue",
+                    "content": "Queues are also related to the previous data structures: Stacks and LinkedLists however they differ fundementally from stacks. This data structure stores items in the order that they have arrived, so that those who have waited the longest are served first. This is a first in first out data structure, and would be useful to implement a parking lot, a lunch line, or to determine how to handle the order http request responses on a webserver."
+                },
+                {
+                    "name": "Entry4 : Binary Search Tree",
+                    "content": "BSTs are useful data structures because of their O(log n) look up time and useful for keeping a list sorted when adding elements, allowing someone to read in or calculate a lot of items and retrieving the sorted list in O(n) time which is very efficient. However the issue with the BST is to guarentee that the BST is always balanced. Once we can guarentee that it can always be balanced then we can guarentee the maximum look up time of each item in the structure."
+                },
+                {
+                    "name": "Entry5 : Graphs",
+                    "content": "Graphs are a unique data structure for each item can be linked to multiple different items in the structure. This data structure is also known as a network and can solve a lot of different problems in the real world. For instance, the most efficient way to get from point a to point b or the cheapest flight path around the world. It is one of the most important data structures in all computer science and is worth studying extensively."
+                }
+            ]
+        },
+        {
+            "name": "Algorithms",
+            "description": "This covers most of the algorithms that I have studied. It provides a centralized place where I can go if I need information about a particular algorithm or just a refresher.",
+            "hovered": false,
+            "projects": [
+                {
+                    "name": "Entry0 : Dijkstra",
+                    "content": "Dijkstra's algorithm is an algorithm concerned with navigating through a weighted graph and trying to minimize/maximize the cost/yeild of the path taken through the graph. This algorithm is useful for determining shortest distances between two real world locations given the obstacles."
+                }
+            ]
+        },
+        {
+            "name": "Web Interfacing",
+            "description": "The projects that I have worked on the web, including this one. This acts as an archive so that I can see the work that I have completed and can research potential solutions for upcoming problems.",
+            "hovered": false,
+            "projects": [
+                {
+                    "name": "Entry0 : Resumé Website",
+                    "content": "My website is powered with Angular, AWS, and a project info insertion tool that I developed with python. In the future I plan on adding either Bootstrap or Angular Material to have the design to look as clean as possible. Also I plan on altering the project info and keeping everything up to date to hopefully impress future employers. This also acts as a great learning activity for me to learn the ropes of AWS and Angular in order to be more creative with the way I constuct websites in the future."
+                },
+                {
+                    "name": "Entry1 : Twitter Trender",
+                    "content": "This is a small application I wrote in order to try to gather information that I have seen on twitter, in order to use machine learning and text analysis to extract some useful information about the trending tweets in the regions most significant to my life."
+                }
+            ]
+        },
+        {
+            "name": "Machine Learning",
+            "description": "The machine learning projects that I have worked on in my free time, and with classwork.",
+            "hovered": false,
+            "projects": [
+                {
+                    "name": "Entry0 : Maximum Likelihood",
+                    "content": "This approach contrasts that of the Least Squares approach by assuming the funciton can be modeled perfected by a function that has added noise to it. In this manner we can conclude that data points are independent and therefore the we can maximize their probability of all of the data points. This will eb explained more thoroughly and concisely in the future."
+                }
+            ]
+        },
+        {
+            "name": "Coding Questions",
+            "description": "A collection of all the preparations that I have worked on to impress employers.",
+            "hovered": false,
+            "projects": [
+            ]
+        }
+    ]
+}

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { ProjectService } from '../../services/project-service/project.service'
 
-import { subjects } from '../../../assets/subjects';
 
 @Component({
   selector: 'app-project-info',
@@ -9,13 +9,16 @@ import { subjects } from '../../../assets/subjects';
   styleUrls: ['./project-info.component.css']
 })
 export class ProjectInfoComponent implements OnInit {
-  subjects = subjects;
+  subjects;
   project;
   projectItem;
   element;
   constructor(
     private route: ActivatedRoute,
-  ) { }
+    private projectService: ProjectService,
+  ) { 
+    this.subjects = this.projectService.getSubjects();
+  }
 
   ngOnInit() {
     this.route.paramMap.subscribe(params => {
